@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+    
+</head>
+
+<style>
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('fit1.jpg');
+        height: 1240px;
+ }
+    .left{
+        color: aliceblue;
+/* border: 2px;
+border-style: solid;
+border-color: aliceblue; */
+display: inline-block;
+position: absolute;
+left: px;
+    }
+    .mid{
+        color: aliceblue;
+/* border: 2px;
+border-style: solid;
+border-color: aliceblue; */
+display: block;
+width: 30%;
+margin: 12px auto;
+           }
+.right{
+    color: aliceblue;
+/* border: 2px;
+border-style: solid;
+border-color: aliceblue; */
+display: inline-block;
+position: absolute;
+right: 34px;
+top: 12px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: large;
+    display: inline-block;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration:none;
+    padding: 10px 10px  ;
+}
+.navbar a:hover{
+    color: rgba(228, 10, 10, 0.907);
+    
+}
+.left img{
+    width: 110px;
+    filter: invert(100%);
+    
+}
+.left div {
+        line-height: 19px;
+        font-size:medium;
+        text-align: center;
+}
+.btn
+{   color: aliceblue;
+    background-color: black;
+    padding: 10px 15px; 
+    border:2px solid rgb(192, 187, 187);
+    border-radius: 15px;
+    font-size:small;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(39, 38, 38);
+}
+.container{
+    /* border: 2px solid white; */
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 10px ;
+    width: 35%;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    
+}
+.form_group input{
+/* text-align: center;
+/* 
+width: 20px;
+  */
+  padding: 6px;
+  display: block;
+  width: 500px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  border-radius: 7px;
+}
+.container button{
+    display: block;
+    width: 300px;
+    margin:20px auto;
+}
+</style>
+<body> 
+    <header class="header">
+        <div class="left">
+            <img src="fit4.jpg" alt="">
+            <div>Fit Forensics</div></div>
+            
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calc</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right"><button class="btn">Call Us</button><button class="btn">E-mail Us</button></div>
+    </header>
+    <div class="container"><h1>Join the Best Gym!</h1>
+    <form action="noaction.php">
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter Your Name">
+            <input type="text" name="" placeholder="Enter Your">
+            <input type="text" name="" placeholder="Enter Your">
+            <input type="text" name="" placeholder="Enter Your">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
